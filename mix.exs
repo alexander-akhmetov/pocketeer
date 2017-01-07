@@ -42,7 +42,7 @@ defmodule Pocketeer.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpotion, "~> 3.0"},
+      {:httpotion, "~> 3.0.2"},
       {:poison, "~> 2.1"},
 
       {:bypass, "~> 0.5", only: :test},
